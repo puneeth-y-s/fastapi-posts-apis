@@ -4,7 +4,7 @@ anyio==4.3.0
 attrs==22.1.0
 bcrypt==4.1.2
 black==23.7.0
-certifi @ file:///C:/b/abs_ac29jvt43w/croot/certifi_1665076682579/work/certifi
+certifi
 cffi==1.16.0
 charset-normalizer==2.1.1
 click==8.1.6
