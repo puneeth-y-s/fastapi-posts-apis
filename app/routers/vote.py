@@ -4,7 +4,9 @@ from sqlalchemy.orm import Session
 from .. import oauth2
 from .. import models, schemas
 
-router = APIRouter()
+router = APIRouter(
+    tags=['Votes']
+)
 
 @router.post("/vote")
 def vote(vote: schemas.Vote, session: Session = Depends(get_db), current_user = Depends(oauth2.get_current_user)):
